@@ -1,3 +1,4 @@
+"""My Resort Booking Project"""
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.decorators.http import require_POST

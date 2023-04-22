@@ -1,3 +1,4 @@
+"""My Resort Booking Project"""
 from django.db import models
 from django.contrib.auth.models import User
 

@@ -1,3 +1,4 @@
+"""My Resort Booking Project"""
 from django import template
 
 from datetime import date, timedelta

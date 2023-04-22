@@ -1,3 +1,4 @@
+"""My Resort Booking Project"""
 from django.contrib import admin
 from .models import Resorts, Rooms, Reservation
 
