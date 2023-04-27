@@ -48,6 +48,7 @@ class Reservation(models.Model):
     guest = models.ForeignKey(User, on_delete=models.CASCADE)
 
     booking_id = models.CharField(max_length=100, default="null")
+    comments = models.CharField(max_length=30, default="Default comments")
 
     def __str__(self):
         return self.guest.username

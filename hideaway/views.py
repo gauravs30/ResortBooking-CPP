@@ -294,6 +294,7 @@ def book_room(request):
         person = total_person
         reservation.check_in = request.POST['check_in']
         reservation.check_out = request.POST['check_out']
+        reservation.comments=request.POST['comments']
 
         reservation.save()
 
